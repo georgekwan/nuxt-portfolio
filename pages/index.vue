@@ -41,13 +41,13 @@
 </template>
 
 <script>
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import * as dat from 'dat.gui';
+import gsap from 'gsap';
+
 export default {
   mounted() {
-    import * as THREE from 'three';
-    import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-    import * as dat from 'dat.gui';
-    import gsap from 'gsap';
-
     // const gui = new dat.GUI();
     const world = {
       plane: {
