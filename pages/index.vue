@@ -8,8 +8,8 @@
       left: 50%;
       width: 100;
       color: #fff;
-      /* text-shadow: 0 0 0.5px #fff, 0 0 1px #fff, 0 0 1.5px #fff, 0 0 3px #fec47f,
-        0 0 3px #fec47f, 0 0 3px #fec47f, 0 0 3px #fec47f, 0 0 5px #fec47f; */
+      text-shadow: 0 0 0.5px #fff, 0 0 1px #fff, 0 0 1.5px #fff, 0 0 3px #fec47f,
+        0 0 3px #fec47f, 0 0 3px #fec47f, 0 0 3px #fec47f, 0 0 5px #fec47f;
     "
   >
     <h1
