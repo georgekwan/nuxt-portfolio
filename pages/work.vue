@@ -1,10 +1,19 @@
 <template>
   <div class="bg-black h-screen px-6 py-12">
-    <h2 class="text-white font-audiowide text-5xl opacity-0" ref="title">
+    <h2
+      class="text-white font-exo text-5xl opacity-0"
+      ref="title"
+      style="transform: translateY(30px)"
+    >
       MY WORK
     </h2>
     <div class="flex space-x-4">
-      <div ref="projects" v-for="project in projects" class="w-full opacity-0">
+      <div
+        ref="projects"
+        v-for="project in projects"
+        class="w-full opacity-0"
+        style="transform: translateX(30px)"
+      >
         <img
           :src="project.image.url"
           alt="project one"
