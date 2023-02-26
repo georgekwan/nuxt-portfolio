@@ -1,8 +1,10 @@
 <template>
   <div class="bg-black h-screen px-6 py-12">
-    <h2 class="text-white font-audiowide text-5xl">MY WORK</h2>
-    <div class="flex space-x-2">
-      <div v-for="project in projects" class="">
+    <h2 class="text-white font-audiowide text-5xl opacity-0" ref="title">
+      MY WORK
+    </h2>
+    <div class="flex space-x-4">
+      <div v-for="project in projects" class="w-full opacity-0">
         <img
           :src="project.image.url"
           alt="project one"
@@ -16,6 +18,7 @@
 </template>
 
 <script>
+import gsap from 'gsap';
 import projectOne from '~/assets/mock-1.jpg';
 import projectTwo from '~/assets/mock-2.jpg';
 import projectThree from '~/assets/mock-3.jpg';
@@ -57,6 +60,11 @@ export default {
         },
       ],
     };
+  },
+  mounted() {
+    gsap.to(this.$ref.title, {
+      opacity: 1,
+    });
   },
 };
 </script>
