@@ -62,8 +62,11 @@ export default {
     };
   },
   mounted() {
-    gsap.to(this.$ref.title, {
+    gsap.to(this.$refs.title, {
       opacity: 1,
+      duration: 1.5,
+      y: 0,
+      ease: 'expo',
     });
   },
 };
