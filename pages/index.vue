@@ -304,7 +304,8 @@ export default {
         duration: 1.5,
         delay: 2,
         onComplete: () => {
-          window.location = 'https://github.com/georgekwan';
+          this.$router.push('/work');
+          // window.location = 'https://github.com/georgekwan';
         },
       });
     });
