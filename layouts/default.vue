@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>***Testing Testing***</h1>
-    <Nuxt />
+    <NuxtPage />
   </div>
 </template>
 
