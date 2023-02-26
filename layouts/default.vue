@@ -31,4 +31,15 @@ html {
   font-family: 'Play', sans-serif;
   animation: pulsate 0.91s ease-in-out infinite alternate;
 }
+@keyframes pulsate {
+  100% {
+    text-shadow: 0 0 1px #fff, 0 0 1.5px #fff, 0 0 2.5px #fff, 0 0 2px #fec47f,
+      0 0 5px #fec47f, 0 0 10px #fec47f, 0 0 12px #fec47f, 0 0 15px #fec47f;
+  }
+
+  0% {
+    text-shadow: 0 0 0.5px #fff, 0 0 1px #fff, 0 0 1.5px #fff, 0 0 1px #fec47f,
+      0 0 3px #fec47f, 0 0 6px #fec47f, 0 0 9px #fec47f, 0 0 12px #fec47f;
+  }
+}
 </style>
