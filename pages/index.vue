@@ -43,7 +43,7 @@
 <script>
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import * as dat from 'dat.gui';
+// import * as dat from 'dat.gui';
 import gsap from 'gsap';
 
 export default {
