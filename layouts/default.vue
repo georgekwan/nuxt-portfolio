@@ -24,10 +24,10 @@ html {
   margin: 0;
 }
 
-.font-Audiowide {
+.font-audiowide {
   font-family: 'Audiowide', cursive;
 }
-.font-Play {
+.font-play {
   font-family: 'Play', sans-serif;
   animation: pulsate 0.91s ease-in-out infinite alternate;
 }
