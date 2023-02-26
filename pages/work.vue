@@ -14,13 +14,15 @@
         class="w-full opacity-0"
         style="transform: translateX(30px)"
       >
-        <img
-          :src="project.image.url"
-          alt="project one"
-          style="height: 70vh"
-          class="object-cover"
-        />
-        <p class="text-white font-space-mono text-sm">{{ project.title }}</p>
+        <nuxt-link to="/">
+          <img
+            :src="project.image.url"
+            alt="project one"
+            style="height: 70vh"
+            class="object-cover"
+          />
+          <p class="text-white font-space-mono text-sm">{{ project.title }}</p>
+        </nuxt-link>
       </div>
     </div>
   </div>
