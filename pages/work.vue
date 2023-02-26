@@ -9,7 +9,7 @@
           style="height: 70vh"
           class="object-cover"
         />
-        <p class="text-white font-space-mono text-sm">Project One</p>
+        <p class="text-white font-space-mono text-sm">{{ project.title }}</p>
       </div>
     </div>
   </div>
@@ -17,6 +17,10 @@
 
 <script>
 import projectOne from '~/assets/mock-1.jpg';
+import projectTwo from '~/assets/mock-2.jpg';
+import projectThree from '~/assets/mock-3.jpg';
+import projectFour from '~/assets/mock-4.jpg';
+import projectFive from '~/assets/mock-5.jpg';
 export default {
   data() {
     return {
@@ -26,6 +30,30 @@ export default {
             url: projectOne,
           },
           title: 'Project One',
+        },
+        {
+          image: {
+            url: projectTwo,
+          },
+          title: 'Project Two',
+        },
+        {
+          image: {
+            url: projectThree,
+          },
+          title: 'Project Three',
+        },
+        {
+          image: {
+            url: projectFour,
+          },
+          title: 'Project Four',
+        },
+        {
+          image: {
+            url: projectFive,
+          },
+          title: 'Project Five',
         },
       ],
     };
