@@ -4,7 +4,7 @@
       MY WORK
     </h2>
     <div class="flex space-x-4">
-      <div v-for="project in projects" class="w-full opacity-0">
+      <div ref="projects" v-for="project in projects" class="w-full opacity-0">
         <img
           :src="project.image.url"
           alt="project one"
@@ -67,6 +67,15 @@ export default {
       duration: 1.5,
       y: 0,
       ease: 'expo',
+    });
+
+    gsap.to(this.$refs.projects, {
+      opacity: 1,
+      duration: 1.5,
+      stagger: 0.1,
+      x: 0,
+      ease: 'expo',
+      delay: 0.2,
     });
   },
 };
