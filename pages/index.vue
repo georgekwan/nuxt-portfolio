@@ -10,14 +10,11 @@
         left: 50%;
         width: 100;
         color: #fff;
-        text-shadow: 0 0 0.5px #fff, 0 0 1px #fff, 0 0 1.5px #fff,
-          0 0 3px #fec47f, 0 0 3px #fec47f, 0 0 3px #fec47f, 0 0 3px #fec47f,
-          0 0 5px #fec47f;
       "
     >
       <h1
         id="georgekwan"
-        class="font-audiowide text-sm uppercase tracking-wide opacity-0"
+        class="font-Audiowide text-sm uppercase tracking-wide opacity-0"
         style="transform: translateY(30px)"
       >
         George Kwan
@@ -32,7 +29,7 @@
       <a
         id="viewWorkBtn"
         href="https://github.com/georgekwan"
-        class="border px-4 py-2 rounded-lg text-sm font-audiowide uppercase mt-8 hover:bg-white hover:text-gray-800 inline-block opacity-0"
+        class="border px-4 py-2 rounded-lg text-sm font-Audiowide uppercase mt-8 hover:bg-white hover:text-gray-800 inline-block opacity-0"
         style="transform: translateY(30px)"
       >
         View Work
