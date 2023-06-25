@@ -15,6 +15,6 @@
     "@nuxtjs/google-fonts": "^3.0.1",
     "dat.gui": "^0.7.9",
     "gsap": "^3.11.5",
-    "three": "^0.152.2"
+    "three": "^0.153.0"
   }
 }
